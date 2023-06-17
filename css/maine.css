@@ -253,10 +253,12 @@ h1{
 
 
 
-
+.message{
+	width:60%;
+}
 
 .contact-info{
-	width:30%;
+    width:40%;
     padding: 20px;
     text-align: left;
 }
