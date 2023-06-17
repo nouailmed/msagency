@@ -250,6 +250,31 @@ h1{
 
 
 
+.contact-info{
+    padding: 50px 50px 0;
+    text-align: center;
+}
+.contact-info h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.contact-info h2{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.contact-info .hr{
+    margin: 0 auto;
+}
+.copyright{
+    background-color: #0085a0;
+    font-size: 15px;
+    padding: 10px;
+}
+
 
 
 
