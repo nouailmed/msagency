@@ -133,7 +133,7 @@
        width: 100%; 
        padding: auto; 
        text-align: center;
-       margin: 30px auto; 
+       margin: 30px 0; 
       }
       .features-part h1{font-size: 30px;   margin-bottom: 30px; }  .features-part p{ line-height: 1.5; font-size: 15px; }
       .feature img{ display: none; }
