@@ -119,21 +119,21 @@
     Mobile (Portrait) Design for a width of 320px
   ==============================================================*/
   
-  @media only screen and (max-width: 767px) {
+  @media (min-width: 0px) and (max-width: 767px) {
     
 #logo-ms{
   margin: 15px 50px;
 }
     .feature{
       display: block;
-      padding: 20px;
+      padding: 0px;
       padding-top: 0px;
   } 
   .features-part{
        width: 100%; 
        padding: auto; 
        text-align: center;
-       margin: 30px auto; 
+       margin: 30px 0; 
       }
       .features-part h1{font-size: 30px;   margin-bottom: 30px; }  .features-part p{ line-height: 1.5; font-size: 15px; }
       .feature img{ display: none; }
