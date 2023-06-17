@@ -150,15 +150,8 @@
       
       } 
       .features-part button{
-        margin-top: 30px;
-        border: 1px solid #fff;
+
         font-size: 15px;
-        border-radius: 50px;
-        padding: 3px 20px;
-        color: #fff;
-        transition: .5s;
-        font-weight: 500;
-        background-color: transparent;
     }
     
 
