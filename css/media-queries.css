@@ -139,7 +139,7 @@
       .feature img{ display: none; }
       .cont{
           margin: 0;
-          padding: 50px 50px;
+          padding: 50px 20px;
           width: 100%;
       }
       .cont .sec-sub-title p{
