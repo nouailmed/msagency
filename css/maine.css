@@ -247,7 +247,7 @@ h1{
 	text-align:left;
 	font-size:18px;
 	font-weight:500;
-	margin-bottem:20px;
+	margin-bottem:30px;
 }
 
 
@@ -261,7 +261,7 @@ h1{
     width:40%;
     padding: 20px;
 	padding-left:50px;
-    text-align: left;
+    text-align: center;
 }
 .contact-info h1{
     font-weight: 600;
@@ -271,7 +271,7 @@ h1{
 .contact-info h2{
     margin-bottom: 10px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 
