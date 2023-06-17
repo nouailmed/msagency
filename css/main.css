@@ -594,7 +594,7 @@ top: -8px;
 }
 .containers{
   border: 2px solid #ccc;
-  padding: 50px 50px 0;
+  padding: 50px;
 }
 .contact-address{
 	width:100%;
@@ -670,7 +670,7 @@ label.error {
   font-size: 16px;
   line-height: 24px;
   padding: 10px;
-  text-align: right;
+  text-align: left;
   width: 150px;
 }
 
