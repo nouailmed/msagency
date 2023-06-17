@@ -277,7 +277,9 @@
   height: 100%;
 
 }
-
+.contact .sec-sub-title h2{
+font-size: 20px;
+}
 .contact .sec-sub-title p{
 color: #fff;
 font-weight: 400;
