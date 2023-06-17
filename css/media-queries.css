@@ -135,7 +135,7 @@
        text-align: center;
        margin: 30px 0; 
       }
-      .features-part h1{font-size: 30px;   margin-bottom: 30px; }  .features-part p{ line-height: 1.5; font-size: 15px; }
+      .features-part h1{font-size: 25px;   margin-bottom: 30px; }  .features-part p{ line-height: 1.5; font-size: 15px; }
       .feature img{ display: none; }
       .cont{
           margin: 0;
@@ -149,7 +149,7 @@
           margin: 0px auto 50px;
       
       } 
-      .features-part button{
+      .features-part a{
 
         font-size: 15px;
     }
@@ -177,7 +177,7 @@
   color: #ffff;
 }
 
-.mission-part button{
+.mission-part a{
   margin-top: 0;
   font-size: 15px;
 }
@@ -260,7 +260,9 @@
 /*=========================================
 	Contact Us
 ==========================================*/
-
+.message{
+	width:100%;
+}
 
 .contact {
   text-align: center;
@@ -315,7 +317,14 @@ margin-bottom: 20px;
   }
 
 
-
+  .contact-info{
+    width: 100%;
+    margin-top: 60px;
+}
+.info-text{ 
+	margin-bottom: 0px;
+	line-height:1.5;
+}
   
   }
   
