@@ -1,0 +1,458 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+  /* slider */
+  .carousel-caption h3 {
+    font-size: 45px;
+  }
+  
+  /* works */
+  .work-item {
+    width: 25%;
+  }
+  
+  
+  /* team */
+  
+  .member-thumb {
+    width: auto;
+  }
+  
+  }
+  
+  
+  /*============================================================
+    Tablet (Portrait) Design for a width of 768px
+  ==============================================================*/
+  
+  @media (min-width: 768px) and (max-width: 979px) {
+  
+  
+  /* slider */
+  
+  .carousel-caption h2 {
+    font-size: 55px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 36px;
+  }
+  
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 325px;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  
+  /* works */
+  
+  .work-item {
+    width: 33%;
+  }
+  
+  /* team */
+  
+  .member-thumb .overlay h5 {
+    margin: 25px 0;
+  }
+  
+  .member-thumb {
+    margin: 0 auto;
+  }
+  
+  /* fatcs */
+  
+  #facts {
+  background-position: center top !important;
+  }
+  .counters-item {
+    margin-bottom: 30px;
+  }
+  
+  .counters-item i {
+    margin: 0 0 15px;
+  }
+  
+  .counters-item strong {
+    font-size: 45px;
+  }
+  
+  /* contact */
+  
+  .contact-form .name-email input {
+    margin-right: 0;
+    width: 100%;
+  }
+  
+  .footer-social {
+    margin-top: 45px;
+  }
+  
+  /* footer */
+  
+  .footer-single {
+    margin-bottom: 30px;
+  }
+  
+  }
+  
+  
+  /*============================================================
+    Mobile (Portrait) Design for a width of 320px
+  ==============================================================*/
+  
+  @media only screen and (max-width: 767px) {
+    
+#logo-ms{
+  margin: 15px 50px;
+}
+    .feature{
+      display: block;
+      padding: 20px;
+      padding-top: 0px;
+  } 
+  .features-part{
+       width: 100%; 
+       padding: auto; 
+       text-align: center;
+       margin: 30px auto; 
+      }
+      .features-part h1{font-size: 30px;   margin-bottom: 30px; }  .features-part p{ line-height: 1.5; font-size: 15px; }
+      .feature img{ display: none; }
+      .cont{
+          margin: 0;
+          padding: 50px 50px;
+          width: 100%;
+      }
+      .cont .sec-sub-title p{
+        font-size: 15px;
+      }
+      .hr{
+          margin: 0px auto 50px;
+      
+      } 
+      .features-part button{
+        margin-top: 30px;
+        border: 1px solid #fff;
+        font-size: 15px;
+        border-radius: 50px;
+        padding: 3px 50px;
+        color: #fff;
+        transition: .5s;
+        font-weight: 500;
+        background-color: transparent;
+    }
+    
+
+.mission{ 
+  padding: 50px 20px;  
+  background: rgb(19,19,19);
+  background: linear-gradient(180deg, #0e0e0e 0%, rgb(0, 88, 122) 150%);
+}
+.mission-part{   
+  text-align: center; 
+}  
+.mission-part h1{
+  color:#fff;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+}  
+.mission-part p{ 
+  font-size: 15px;
+  line-height: 1.5; 
+  font-weight: 100;
+  color: #ffff;
+}
+
+.mission-part button{
+  margin-top: 0;
+  font-size: 15px;
+}
+.mission .sec-sub-title p{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+  .sec-sub-title p {
+    font-size: 15px;
+  }
+  
+  /* slider */
+  .carousel-caption h2 {
+    font-size: 35px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 22px;
+  }
+  
+  .carousel-caption p {
+    font-size: 14px;
+  }
+  
+  .social-links {
+    margin-top: 20%;
+  }
+  
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+    width: 280px;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  
+  
+  /* works */
+  
+  
+  /* team */
+  
+  .team-member {
+    margin-bottom: 30px;
+  }
+  
+  .team-member:last-child {
+    margin-bottom: 0;
+  }
+  
+  .member-thumb {
+    margin: 0 auto;
+  }
+  
+  /* facts */
+  
+  #facts {
+  background-position: center top !important;
+  }
+  
+  .counters-item {
+    margin-bottom: 30px;
+  }
+  
+/*=========================================
+	Contact Us
+==========================================*/
+
+
+.contact {
+  text-align: center;
+  color: #fff;
+  margin: 0px;
+  padding: 50px 20px ;
+  height: 100%;
+
+}
+
+.contact .sec-sub-title p{
+color: #fff;
+font-weight: 400;
+font-size: 15px;
+}
+.containers{
+border: none;
+padding: 50px 20px 0;
+}
+
+
+.containers .rows{
+display:contents;
+}
+
+.contact-form h3 {
+  text-align: center;
+color: #fff;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+margin-bottom: 25px;
+}
+
+.contact-form .input-group {
+width: 100%;
+margin-bottom: 20px;
+}
+
+  /* contact */
+  .contact-address {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+
+
+  
+  }
+  
+  
+  /*============================================================
+    Mobile (Landscape) Design for a width of 480px
+  ==============================================================*/
+  
+  @media only screen and (min-width: 0px) and (max-width: 766px) {
+    #logo{
+        margin:10px 20px;
+    }
+    
+    .banner-content {
+      width: 100%;
+      position: relative;
+  }
+  
+    .da-texte{
+      position: relative;
+      width: 80%;
+      max-width: 90%;
+      padding: 100px 0;
+  
+  }
+      .da-texte h2 {
+          position: relative;
+          margin: 50px 0;
+          padding: 0;
+          color: #fff;
+          font-size: 2.5em;
+      }
+  
+      .da-texte p {
+          width:70%;
+        max-width: 70%;
+          position: relative;
+          font-size: 17px;
+          font-weight: normal;
+          font-style: normal;
+          color: #fff;
+      }
+      .da-dots{
+        left: 50px;
+      }
+  
+  
+  
+  #introText{
+    padding: 20px;
+    margin: 20px 0;
+  }
+  #introText h2{
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  #introText p{
+    font-size: 8px;
+    line-height: 1.5;
+    margin-top: 20px;
+  
+  }
+  /* services */
+  
+  .service-item {
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+  
+  .service-icon {
+    float: none;
+    margin: 0 auto 15px;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .service-desc {
+    margin-left: 0;
+    position: relative;
+    top: 0;
+  }
+  .service-desc p{
+     font-size: 8px;
+     line-height: 1.5;
+  }
+  .service-desc h3{
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  /* works */
+  .project-wrapper{
+    padding: 0 20px;
+  }
+  .work-item {
+    left: inherit !important;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .sec-sub-title{
+      padding:0 20px;
+  }
+  
+  .sec-sub-title p{
+      
+    font-size: 10px;
+  }
+  
+  
+  #skills{
+      margin-bottom: 0px;
+  }
+  .skills-text h3{
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .skills-text p{
+    font-size: 9px;
+    line-height: 1.5;
+  }
+  
+  .contact-info{
+      width:100%;
+      align-items:center;
+      padding:0 20px;
+  }
+  .contact-info i{
+      margin: 0 10px 0 0;
+  }
+  .input-field{
+      display:block;
+      width:100%;
+  }
+  
+  .copyright p{
+      font-size:8px;
+        padding: 10px;
+  
+  }
+  }

@@ -1,0 +1,88 @@
+$primaryColor: #4caf50;
+$secondaryColor: #b44646;
+$animationDuration: 3s;
+$loadingSize: 128px;
+$perspective: 250px;
+
+
+.u-loading {
+  width: $loadingSize;
+  height: $loadingSize;
+  display: block;
+	margin: 48px;
+  
+  &__symbol {
+    background-color: $primaryColor;
+    padding: 8px;
+		animation: loading $animationDuration infinite;
+		border-radius: 5px;
+    
+    img {
+      display: block;
+      max-width: 100%;
+      animation: loading-icon $animationDuration infinite;
+    }
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: perspective($perspective) rotateX(0deg) rotateY(0deg);
+  }
+
+	15% {
+		background-color: $primaryColor;
+	}
+	
+	16% {
+		background-color: $secondaryColor;
+	}
+	
+  50% {
+    transform: perspective($perspective) rotateX(180deg) rotateY(0deg);
+		background-color: $secondaryColor;
+  }
+	
+	65% {
+		background-color: $secondaryColor;
+
+	}
+	
+  66% {
+			background-color: $primaryColor;
+	}
+
+  100% {
+    transform: perspective($perspective) rotateX(180deg) rotateY(-180deg);
+  }
+}
+
+@keyframes loading-icon {
+  0% {
+    transform: perspective($perspective) rotateX(0deg) rotateY(0deg);
+  }
+  
+	15% {
+		transform: perspective($perspective) rotateX(0deg) rotateY(0deg);
+	}
+	
+	16% {
+		transform: perspective($perspective) rotateX(180deg) rotateY(0deg);
+	}
+	
+  50% {
+    transform: perspective($perspective) rotateX(180deg) rotateY(0deg);
+  }
+	
+	65% {
+		transform: perspective($perspective) rotateX(180deg) rotateY(0deg);
+	}
+	
+  66% {
+			transform: perspective($perspective) rotateX(180deg) rotateY(180deg);
+	}
+	
+  100% {
+    transform: perspective($perspective) rotateX(180deg) rotateY(180deg);
+  }
+}
