@@ -615,6 +615,7 @@ top: -8px;
 
 .contact-form { width:100%;}
 .rows{
+	width:100%;
   display: flex;
 
 }
