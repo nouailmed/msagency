@@ -596,6 +596,10 @@ top: -8px;
   border: 2px solid #ccc;
   padding: 50px 50px 0;
 }
+.contact-address{
+	width:100%;
+	
+}
 .contact-address h3 {
 	text-align:center;
   color: #fff;
@@ -609,7 +613,7 @@ top: -8px;
   line-height: 24px;
 }
 
-.contact-form {}
+.contact-form { width:100%;}
 .rows{
   display: block;
 
