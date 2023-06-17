@@ -133,13 +133,13 @@
        width: 100%; 
        padding: auto; 
        text-align: center;
-       margin: 30px 0; 
+       margin: 30px auto; 
       }
       .features-part h1{font-size: 30px;   margin-bottom: 30px; }  .features-part p{ line-height: 1.5; font-size: 15px; }
       .feature img{ display: none; }
       .cont{
           margin: 0;
-          padding: 50px 0px;
+          padding: 50px 20px;
           width: 100%;
       }
       .cont .sec-sub-title p{
@@ -187,7 +187,6 @@
 .mission-part button{
   margin-top: 0;
   font-size: 15px;
-    padding: 3px 20px;
 }
 .mission .sec-sub-title p{
   font-size: 15px;
@@ -302,12 +301,18 @@ font-weight: 700;
 line-height: 32px;
 margin-bottom: 25px;
 }
+.name-email{
+    display: block;
 
+}
 .contact-form .input-group {
 width: 100%;
 margin-bottom: 20px;
 }
-
+.input-group .input-field{
+  display: block;
+  width: 100%;
+}
   /* contact */
   .contact-address {
     margin-bottom: 30px;
