@@ -116,7 +116,7 @@ h1{
     border: 1px solid #fff;
     font-size: 18px;
     border-radius: 50px;
-    padding: 3px 50px;
+    padding: 3px 20px;
     color: #fff;
     transition: .5s;
     font-weight: 500;
@@ -154,10 +154,10 @@ h1{
 }
 
 .mission-part button{
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     font-size: 18px;
     border-radius: 50px;
-    padding: 3px 50px;
+    padding: 3px 20px;
     color: #fff;
     transition: .5s;
     font-weight: 500;
@@ -167,7 +167,7 @@ h1{
 .mission-part button:hover{
     color: #fff;
     background-color: #008ca8;
-    border: 2px solid #0085a0 ;
+    border: 1px solid #0085a0 ;
 }
 .mission .hr{
     margin: 0 auto 50px;
