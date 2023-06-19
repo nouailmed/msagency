@@ -205,9 +205,12 @@ h1{
     text-transform: uppercase;
 }
 .cont p{
-    text-align: center;
+    text-align: left;
     font-size: 16px;
 } 
+.cont .p{
+    text-align: center;
+}
 .cont h3{
     align-items: center;
     font-size: 25px;
@@ -262,19 +265,17 @@ h1{
 }
 
 .contact-info{
-    width:40%;
+    width:45%;
     padding: 20px;
 	padding-left:50px;
-    text-align: center;
+    text-align: left;
 }
-.contact-info h1{
-    font-weight: 600;
-    margin-bottom: 20px;
+.contact-info h2{
+    margin-top: 0px;
 
 }
 .contact-info p{
-   
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
 }
 .info-text{ 
@@ -284,6 +285,7 @@ h1{
 
 .contact-info .hr{
     margin: 0;
+    padding: 0;
 }
 .copyright{
     background-color: #0085a0;
@@ -316,10 +318,27 @@ h1{
 
 
 
-
-
-
-
+.form-select{
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.form-select select{
+    width: 100%;
+    height: 40px;
+    color: #000;
+    padding: 0 10px;
+}
+.form-select p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 /*=========================================
 	Contact Us
 ==========================================*/
@@ -355,6 +374,10 @@ h1{
 
 
 
+
+.logo-end{
+    margin: 50px;
+}
 
 
 
