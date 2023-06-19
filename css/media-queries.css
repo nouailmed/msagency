@@ -183,7 +183,9 @@
 }
 .mission .sec-sub-title p{
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 100;
+  text-align: left; 
+
 }
 
 
@@ -320,12 +322,26 @@ margin-bottom: 20px;
   .contact-info{
     width: 100%;
     margin-top: 60px;
+    text-align: center;
+
 }
 .info-text{ 
 	margin-bottom: 0px;
 	line-height:1.5;
 }
-  
+.logo-end{
+  width: 100%;
+  margin: 0;
+}
+  .contact-info .social-links{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .contact-info h2{
+    text-align: center;
+    margin-top: 50px;
+
+}
   }
   
   
